@@ -282,7 +282,7 @@ public class TestControllerAsync : MonoBehaviour {
         matchInfoTextField.text += "eloRatingEnd: " + info.eloRatingEnd + "\n";
         matchInfoTextField.text += "playerHealth: " + info.playerHealth.HP + " HP\n";
         matchInfoTextField.text += "enemyHealth: " + info.enemyHealth.HP + " HP\n";
-        matchInfoTextField.text += "resurrectionNb: " + info.resurrectionNb + "\n";
+        matchInfoTextField.text += "resurrectBoosterCost: " + info.resurrectBoosterCost + "\n";
         matchInfoTextField.text += "chestPoints: " + info.chestPoints + "\n";
         matchInfoTextField.text += "activeTile.id: " + info.activeTile.id + "\n";
         feedbackTextField.text = "Match info loaded";
